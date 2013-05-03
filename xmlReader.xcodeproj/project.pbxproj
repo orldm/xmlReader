@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6C0B8EA17341C3E004B1D5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C0B8E917341C3E004B1D5C /* UIKit.framework */; };
+		F6C0B8EC17341C3E004B1D5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C0B8EB17341C3E004B1D5C /* Foundation.framework */; };
+		F6C0B8EE17341C3E004B1D5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C0B8ED17341C3E004B1D5C /* CoreGraphics.framework */; };
+		F6C0B8F417341C3E004B1D5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6C0B8F217341C3E004B1D5C /* InfoPlist.strings */; };
+		F6C0B8F617341C3E004B1D5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C0B8F517341C3E004B1D5C /* main.m */; };
+		F6C0B8FA17341C3E004B1D5C /* xmlReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C0B8F917341C3E004B1D5C /* xmlReaderAppDelegate.m */; };
+		F6C0B8FD17341C3E004B1D5C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C0B8FB17341C3E004B1D5C /* MainStoryboard.storyboard */; };
+		F6C0B90017341C3E004B1D5C /* xmlReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C0B8FF17341C3E004B1D5C /* xmlReaderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6C0B8E517341C3E004B1D5C /* xmlReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xmlReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C0B8E917341C3E004B1D5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6C0B8EB17341C3E004B1D5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6C0B8ED17341C3E004B1D5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6C0B8F117341C3E004B1D5C /* xmlReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xmlReader-Info.plist"; sourceTree = "<group>"; };
+		F6C0B8F317341C3E004B1D5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6C0B8F517341C3E004B1D5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6C0B8F717341C3E004B1D5C /* xmlReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xmlReader-Prefix.pch"; sourceTree = "<group>"; };
+		F6C0B8F817341C3E004B1D5C /* xmlReaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xmlReaderAppDelegate.h; sourceTree = "<group>"; };
+		F6C0B8F917341C3E004B1D5C /* xmlReaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xmlReaderAppDelegate.m; sourceTree = "<group>"; };
+		F6C0B8FC17341C3E004B1D5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F6C0B8FE17341C3E004B1D5C /* xmlReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xmlReaderViewController.h; sourceTree = "<group>"; };
+		F6C0B8FF17341C3E004B1D5C /* xmlReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xmlReaderViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6C0B8E217341C3E004B1D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C0B8EA17341C3E004B1D5C /* UIKit.framework in Frameworks */,
+				F6C0B8EC17341C3E004B1D5C /* Foundation.framework in Frameworks */,
+				F6C0B8EE17341C3E004B1D5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6C0B8DA17341C3E004B1D5C = {
+			isa = PBXGroup;
+			children = (
+				F6C0B8EF17341C3E004B1D5C /* xmlReader */,
+				F6C0B8E817341C3E004B1D5C /* Frameworks */,
+				F6C0B8E617341C3E004B1D5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6C0B8E617341C3E004B1D5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C0B8E517341C3E004B1D5C /* xmlReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6C0B8E817341C3E004B1D5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C0B8E917341C3E004B1D5C /* UIKit.framework */,
+				F6C0B8EB17341C3E004B1D5C /* Foundation.framework */,
+				F6C0B8ED17341C3E004B1D5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6C0B8EF17341C3E004B1D5C /* xmlReader */ = {
+			isa = PBXGroup;
+			children = (
+				F6C0B8F817341C3E004B1D5C /* xmlReaderAppDelegate.h */,
+				F6C0B8F917341C3E004B1D5C /* xmlReaderAppDelegate.m */,
+				F6C0B8FB17341C3E004B1D5C /* MainStoryboard.storyboard */,
+				F6C0B8FE17341C3E004B1D5C /* xmlReaderViewController.h */,
+				F6C0B8FF17341C3E004B1D5C /* xmlReaderViewController.m */,
+				F6C0B8F017341C3E004B1D5C /* Supporting Files */,
+			);
+			path = xmlReader;
+			sourceTree = "<group>";
+		};
+		F6C0B8F017341C3E004B1D5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6C0B8F117341C3E004B1D5C /* xmlReader-Info.plist */,
+				F6C0B8F217341C3E004B1D5C /* InfoPlist.strings */,
+				F6C0B8F517341C3E004B1D5C /* main.m */,
+				F6C0B8F717341C3E004B1D5C /* xmlReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6C0B8E417341C3E004B1D5C /* xmlReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C0B90317341C3E004B1D5C /* Build configuration list for PBXNativeTarget "xmlReader" */;
+			buildPhases = (
+				F6C0B8E117341C3E004B1D5C /* Sources */,
+				F6C0B8E217341C3E004B1D5C /* Frameworks */,
+				F6C0B8E317341C3E004B1D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xmlReader;
+			productName = xmlReader;
+			productReference = F6C0B8E517341C3E004B1D5C /* xmlReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6C0B8DC17341C3E004B1D5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = xmlReader;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = bullet;
+			};
+			buildConfigurationList = F6C0B8DF17341C3E004B1D5C /* Build configuration list for PBXProject "xmlReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6C0B8DA17341C3E004B1D5C;
+			productRefGroup = F6C0B8E617341C3E004B1D5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C0B8E417341C3E004B1D5C /* xmlReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6C0B8E317341C3E004B1D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C0B8F417341C3E004B1D5C /* InfoPlist.strings in Resources */,
+				F6C0B8FD17341C3E004B1D5C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6C0B8E117341C3E004B1D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C0B8F617341C3E004B1D5C /* main.m in Sources */,
+				F6C0B8FA17341C3E004B1D5C /* xmlReaderAppDelegate.m in Sources */,
+				F6C0B90017341C3E004B1D5C /* xmlReaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6C0B8F217341C3E004B1D5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C0B8F317341C3E004B1D5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6C0B8FB17341C3E004B1D5C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C0B8FC17341C3E004B1D5C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6C0B90117341C3E004B1D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6C0B90217341C3E004B1D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6C0B90417341C3E004B1D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xmlReader/xmlReader-Prefix.pch";
+				INFOPLIST_FILE = "xmlReader/xmlReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6C0B90517341C3E004B1D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xmlReader/xmlReader-Prefix.pch";
+				INFOPLIST_FILE = "xmlReader/xmlReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6C0B8DF17341C3E004B1D5C /* Build configuration list for PBXProject "xmlReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C0B90117341C3E004B1D5C /* Debug */,
+				F6C0B90217341C3E004B1D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C0B90317341C3E004B1D5C /* Build configuration list for PBXNativeTarget "xmlReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C0B90417341C3E004B1D5C /* Debug */,
+				F6C0B90517341C3E004B1D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6C0B8DC17341C3E004B1D5C /* Project object */;
+}
