@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F645DAFF1735089C005D4EAD /* Song Two.xml in Resources */ = {isa = PBXBuildFile; fileRef = F645DAFD1735089C005D4EAD /* Song Two.xml */; };
+		F645DB001735089C005D4EAD /* Song One.xml in Resources */ = {isa = PBXBuildFile; fileRef = F645DAFE1735089C005D4EAD /* Song One.xml */; };
+		F645DB0417353C72005D4EAD /* xmlTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F645DB0317353C72005D4EAD /* xmlTableViewController.m */; };
 		F6C0B8EA17341C3E004B1D5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C0B8E917341C3E004B1D5C /* UIKit.framework */; };
 		F6C0B8EC17341C3E004B1D5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C0B8EB17341C3E004B1D5C /* Foundation.framework */; };
 		F6C0B8EE17341C3E004B1D5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C0B8ED17341C3E004B1D5C /* CoreGraphics.framework */; };
@@ -18,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F645DAFD1735089C005D4EAD /* Song Two.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Song Two.xml"; sourceTree = "<group>"; };
+		F645DAFE1735089C005D4EAD /* Song One.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Song One.xml"; sourceTree = "<group>"; };
+		F645DB0217353C72005D4EAD /* xmlTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlTableViewController.h; sourceTree = "<group>"; };
+		F645DB0317353C72005D4EAD /* xmlTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xmlTableViewController.m; sourceTree = "<group>"; };
 		F6C0B8E517341C3E004B1D5C /* xmlReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xmlReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C0B8E917341C3E004B1D5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F6C0B8EB17341C3E004B1D5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +87,8 @@
 				F6C0B8F817341C3E004B1D5C /* xmlReaderAppDelegate.h */,
 				F6C0B8F917341C3E004B1D5C /* xmlReaderAppDelegate.m */,
 				F6C0B8FB17341C3E004B1D5C /* MainStoryboard.storyboard */,
+				F645DB0217353C72005D4EAD /* xmlTableViewController.h */,
+				F645DB0317353C72005D4EAD /* xmlTableViewController.m */,
 				F6C0B8FE17341C3E004B1D5C /* xmlReaderViewController.h */,
 				F6C0B8FF17341C3E004B1D5C /* xmlReaderViewController.m */,
 				F6C0B8F017341C3E004B1D5C /* Supporting Files */,
@@ -90,6 +99,8 @@
 		F6C0B8F017341C3E004B1D5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F645DAFD1735089C005D4EAD /* Song Two.xml */,
+				F645DAFE1735089C005D4EAD /* Song One.xml */,
 				F6C0B8F117341C3E004B1D5C /* xmlReader-Info.plist */,
 				F6C0B8F217341C3E004B1D5C /* InfoPlist.strings */,
 				F6C0B8F517341C3E004B1D5C /* main.m */,
@@ -152,6 +163,8 @@
 			files = (
 				F6C0B8F417341C3E004B1D5C /* InfoPlist.strings in Resources */,
 				F6C0B8FD17341C3E004B1D5C /* MainStoryboard.storyboard in Resources */,
+				F645DAFF1735089C005D4EAD /* Song Two.xml in Resources */,
+				F645DB001735089C005D4EAD /* Song One.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +178,7 @@
 				F6C0B8F617341C3E004B1D5C /* main.m in Sources */,
 				F6C0B8FA17341C3E004B1D5C /* xmlReaderAppDelegate.m in Sources */,
 				F6C0B90017341C3E004B1D5C /* xmlReaderViewController.m in Sources */,
+				F645DB0417353C72005D4EAD /* xmlTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +294,7 @@
 				F6C0B90517341C3E004B1D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

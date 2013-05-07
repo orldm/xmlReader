@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding='UTF-8' standalone='no' ?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="2.0">
+	<part-list>
+		<score-part id = 'P1'>
+			<part-name>Chord</part-name>
+		</score-part>
+	</part-list>
+	<part id = 'P1'>
+		<measure number = '1'>
+			<attributes>
+				<divisions>1</divisions>
+				<key>
+					<fifths>0</fifths>
+				</key>
+				<time>
+					<beats>4</beats>
+					<beat-type>4</beat-type>
+				</time>
+				<clef>
+					<sign>G</sign>
+					<line>2</line>
+				</clef>
+			</attributes>
+			<harmony>
+				<root>
+					<root-step>A</root-step>
+				</root>
+				<kind>minor</kind>
+			</harmony>
+
+			<forward>
+				<duration>2</duration>
+			</forward>
+
+			
+			<harmony>
+				<root>
+					<root-step>D</root-step>
+				</root>
+				<kind>minor</kind>
+			</harmony>
+
+		</measure>
+		<measure number = '2'>
+			<harmony>
+				<root>
+					<root-step>E</root-step>
+				</root>
+				<kind>major</kind>
+			</harmony>
+		</measure>
+		<measure number = '3'>
+			<harmony>
+				<root>
+					<root-step>A</root-step>
+				</root>
+				<kind>minor</kind>
+			</harmony>
+		</measure>
+		<measure number = '4'>
+			<harmony>
+				<root>
+					<root-step>A</root-step>
+				</root>
+				<kind>major</kind>
+			</harmony>
+		</measure>
+	</part>
+</score-partwise>
