@@ -7,6 +7,7 @@
 //
 
 #import "xmlTableViewController.h"
+#import "currentFileViewController.h"
 
 @interface xmlTableViewController ()
 
@@ -16,6 +17,7 @@
 @implementation xmlTableViewController
 
 @synthesize xmlFiles = _xmlFiles;
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -31,7 +33,7 @@
     [super viewDidLoad];
     
     
-    _xmlFiles = [[NSBundle mainBundle] pathsForResourcesOfType:@"xml" inDirectory:nil];
+    self.xmlFiles = [[NSBundle mainBundle] pathsForResourcesOfType:@"xml" inDirectory:nil];
     
 
     // Uncomment the following line to preserve selection between presentations.
@@ -64,7 +66,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [_xmlFiles count];
+    return [self.xmlFiles count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -75,12 +77,22 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
     }
     
-    NSString *currentFile = [_xmlFiles objectAtIndex:indexPath.row];
+    NSString *currentFile = [self.xmlFiles objectAtIndex:indexPath.row];
     NSString *shortFileName = [[currentFile pathComponents] objectAtIndex:[[currentFile pathComponents] count] - 1];
     
-    [[cell textLabel] setText:shortFileName];
+    cell.textLabel.Text = shortFileName;
     
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"FileInfoSegue"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSString *currentFile = [self.xmlFiles objectAtIndex:indexPath.row];
+        //NSString *shortFileName = [[currentFile pathComponents] objectAtIndex:[[currentFile pathComponents] count] - 1];
+        [segue.destinationViewController setFileName: currentFile];
+    }
 }
 
 /*
@@ -126,6 +138,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    //NSString *currentFile = [self.xmlFiles objectAtIndex:indexPath.row];
     // Navigation logic may go here. Create and push another view controller.
     /*
      <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
